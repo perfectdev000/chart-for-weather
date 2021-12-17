@@ -1,0 +1,16 @@
+[
+  {    "time":0,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":1,    "temp":-4,    "icon":2,    "kwh":21.3  },
+  {    "time":2,    "temp":-2,    "icon":1,    "kwh":31.3  },
+  {    "time":3,    "temp":5,    "icon":4,    "kwh":41.3  },
+  {    "time":4,    "temp":8,    "icon":3,    "kwh":21.3  },
+  {    "time":5,    "temp":1,    "icon":1,    "kwh":51.3  },
+  {    "time":6,    "temp":1,    "icon":1,    "kwh":61.3  },
+  {    "time":7,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":8,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":0,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":0,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":0,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":0,    "temp":1,    "icon":1,    "kwh":11.3  },
+  {    "time":0,    "temp":1,    "icon":1,    "kwh":11.3  }
+]

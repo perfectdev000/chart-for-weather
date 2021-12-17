@@ -1,0 +1,150 @@
+.content{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chart-div{
+  width: 800px;
+  border-radius: 8px;
+  border:solid #ECE9F1 1px;
+}
+@font-face {font-family: "Averta CY W01 Bold";
+  src: url("ace51fb0e489a977bed8a67511865c11.eot"); /* IE9*/
+  src: url("ace51fb0e489a977bed8a67511865c11.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("ace51fb0e489a977bed8a67511865c11.woff2") format("woff2"), /* chrome、firefox */
+  url("ace51fb0e489a977bed8a67511865c11.woff") format("woff"), /* chrome、firefox */
+  url("ace51fb0e489a977bed8a67511865c11.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("ace51fb0e489a977bed8a67511865c11.svg#Averta CY W01 Bold") format("svg"); /* iOS 4.1- */
+}
+.chart-title{
+  position: relative;
+  color:  #0D1758;
+  font-family: 'Averta CY W01 Bold', 'Arial', 'sans-serif';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 10px 0 0 13px ;
+  height: 44px;
+  border-bottom: solid #ECE9F1 1px;
+}
+.chart-body{
+  position: relative;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: flex-start;
+}
+.chart-left-part{
+  position: relative;
+  width: 57px;
+  height: 100%;
+  border-right: solid #ECE9F1 1px;
+  /* border-right: solid #ECE9F1 1px; */
+}
+.chart-text-time{
+  font-family: 'Averta CY W01 Bold', 'Arial', 'sans-serif';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 6px 0;
+  height: 27px;  
+  color:  #0D1758;
+  border-bottom: solid #ECE9F1 1px;
+}
+.chart-text-temp{
+  font-family: 'Averta CY W01 Bold', 'Arial', 'sans-serif';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 27px;
+  padding: 6px 0;
+  color:  #0D1758;
+  border-bottom: solid #ECE9F1 1px;
+}
+.chart-text-prod{
+  font-family: 'Averta CY W01 Bold', 'Arial', 'sans-serif';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0px;
+  height: 114px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color:  #0D1758;
+}
+.chart-graphic{
+  position: relative;
+  width:100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  overflow-x:auto;
+  overflow-y: hidden;
+  margin-right: 4px;
+}
+.chart-item2{
+  width: 52px;
+  min-width: 52px;
+  position: relative;
+  
+}
+.chart-item1{
+  width: 52px;
+  min-width: 52px;
+  background-color: #F5F7FB;
+  position: relative;
+  
+}
+.chart-graph-time{
+  font-family: 'Averta CY W01 Bold', 'Arial', 'sans-serif';
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;  
+  color:  #7F7F95;
+  padding: 6px 0;  
+}
+
+.chart-graph-prod{
+  font-family: 'Averta CY W01 Bold', 'Arial', 'sans-serif';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-align: end;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color:  #0D1758;
+  bottom: 0px;
+  width: 52px;
+  position: absolute;
+}
+.chart-graph-yellow{
+  position: absolute;
+  bottom: 0px;
+  
+  width: 100%;
+  background-color: #FFC90E;  
+  
+}

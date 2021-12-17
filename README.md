@@ -1,0 +1,1 @@
+<img src="https://github.com/perfectdev000/chart-for-weather/blob/master/weather-chart.png" alt="My cool logo"/>
